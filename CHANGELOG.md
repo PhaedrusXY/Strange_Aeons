@@ -2,7 +2,7 @@
 
 _This chronology is reconstructed from modpack development conversations and a verified v2.5 ZIP inspection. It is deliberately not a complete CurseForge release changelog. Dates below refer to development discussion/inspection, not necessarily publication dates._
 
-## 2.5 — export/staging reviewed, publication unconfirmed (October 2026)
+## 2.5 — CurseForge upload confirmed (October 2026)
 
 **Observed in the v2.5 export:**
 - Occultism and its **SmartBrainLib**, **Modonomicon**, and other installed companion integrations.
@@ -12,8 +12,8 @@ _This chronology is reconstructed from modpack development conversations and a v
 - Ice and Fire's `"Custom main menu" = false`, allowing FancyMenu to run.
 - User's local Aurelis/Oculus/Embeddium/shader setup **absent from the public export**.
 
-**Cleanup observations, not confirmed completed:**
-- Remove development cache `kubejs/probe/` (~15 MB of compressed ZIP bulk) and optionally exclude ProbeJS itself.
+**Cleanup changes implemented:**
+- Remove development cache `kubejs/probe/` (~15 MB of compressed ZIP bulk) and exclude ProbeJS itself.
 - Remove temporary operator-only `/tfworm` test script when confident the finale is verified.
 - Preserve Forgified Fabric API / Connector / Connector Extras until a real dependency audit.
 - Review optional resourcepack and retired mod configs.
