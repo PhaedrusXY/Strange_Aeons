@@ -2,6 +2,18 @@
 
 _Initialized 2026-10-13. Priority/target versions are tentative; no unscheduled feature should be described as shipped._
 
+## Issue dashboard
+
+| Track | Active issues |
+| --- | --- |
+| Next release and maintenance | [Polymorph update #1](https://github.com/PhaedrusXY/Strange_Aeons/issues/1), [duplicate JAR cleanup #2](https://github.com/PhaedrusXY/Strange_Aeons/issues/2), [v2.5 export verification #3](https://github.com/PhaedrusXY/Strange_Aeons/issues/3), [ProbeJS/export cleanup #9](https://github.com/PhaedrusXY/Strange_Aeons/issues/9), [public pack name/changelog #15](https://github.com/PhaedrusXY/Strange_Aeons/issues/15) |
+| Tests | [Void Worm #4](https://github.com/PhaedrusXY/Strange_Aeons/issues/4), [Dragon Escape Spin #5](https://github.com/PhaedrusXY/Strange_Aeons/issues/5), [M&A armor #11](https://github.com/PhaedrusXY/Strange_Aeons/issues/11), [Occultism gameplay #12](https://github.com/PhaedrusXY/Strange_Aeons/issues/12), [pouch-label compatibility #16](https://github.com/PhaedrusXY/Strange_Aeons/issues/16) |
+| Integration and research | [Occultism silver #6](https://github.com/PhaedrusXY/Strange_Aeons/issues/6), [Occultism storage #7](https://github.com/PhaedrusXY/Strange_Aeons/issues/7), [Fabric/Connector dependency audit #8](https://github.com/PhaedrusXY/Strange_Aeons/issues/8) |
+| Source and technical debt | [Import actual source #10](https://github.com/PhaedrusXY/Strange_Aeons/issues/10), [obsolete scripts/config #13](https://github.com/PhaedrusXY/Strange_Aeons/issues/13) |
+| Future ideas | [Azathoth/Limbo triggered soundscape #14](https://github.com/PhaedrusXY/Strange_Aeons/issues/14) |
+
+These entries are **not** a completed-work checklist; they link to open issues with the test criteria and decision background. Close issues only on verified completion.
+
 ## Next maintenance release
 
 - **Update Polymorph** from 0.49.8 to a corrected 1.20.1 Forge build (target 0.49.11) on clients **and** servers. A confirmed upstream startup NPE in 0.49.8 has a fix in 0.49.9; subsequent concurrency fixes in 0.49.10. Back up worlds before updates.
