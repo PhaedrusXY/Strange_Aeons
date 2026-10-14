@@ -1,17 +1,18 @@
 # Strange Aeons — Reborn
 
-A magic- and exploration-focused Minecraft modpack for **Minecraft 1.20.1 / Forge 47.4.5**, managed and distributed through CurseForge.
+A dark magic, high fantasy, exploration-focused Minecraft modpack for **Minecraft 1.20.1 / Forge 47.4.5**, managed and distributed through CurseForge.
 
 This repository is the **development record** for the modpack: implementation notes, tracked issues, balance/design decisions, changelog, and eventually the curated configuration, KubeJS, and datapack files. It is **not** a complete standalone modpack download.
 
-> **Repository initialized 2026-10-13.** The notes below reconstruct earlier work and may contain items requiring verification against the installed pack. The **2.4** CurseForge upload is confirmed; **2.5** was inspected as an export but its publication has not been confirmed here.
-
+> **Repository initialized 2026-10-13.** The notes below reconstruct earlier work and may contain items requiring verification against the installed pack.
+> 
 ## Design priorities
 
-- Magic should be powerful and entertaining, with faction choices and a reason to experiment.
+- The world should be harsh, but not overwhelmingly so.
+- Advancement options should be powerful and entertaining, with interesting factions to join and reasons to experiment.
 - Advancement depends on **exploration, bosses, ritual systems, and cross-mod materials**, not just digging for increasingly valuable ores.
 - Connect large mods into a coherent world without trivializing their unique mechanics.
-- Keep dedicated-server performance and reliability high; prioritize reversible, testable changes.
+- Keep performance and reliability high, especially on dedicated-servers; prioritize reversible, testable changes.
 - Preserve a mystical/sword-and-sorcery aesthetic rather than industrializing every system.
 
 ## Key systems (see [decision log](DECISIONS.md))
@@ -53,10 +54,10 @@ defaultconfigs/
 
 Pack source must not include third-party `mods/*.jar`, world saves, player data, backup archives, logs/crash reports, private server settings, personal Xaero waypoints, large generated `kubejs/probe/` output, or locally installed shader/resource packs. CurseForge's manifest is the authority for distributed mod JARs.
 
-Personal client enhancements such as **Aurelis**, **Oculus**, **Embeddium** and shaders are not part of the public pack export. Development-only **ProbeJS** and **WorldEdit** are also excluded; **Spark** may remain installed on the server for profiling, not as a required player mod.
+Personal client enhancements such as **Aurelis**, **Oculus**, **Embeddium** and shaders are not part of the public pack export. Development-only **ProbeJS** and **WorldEdit** are also excluded in releases; **Spark** may remain installed on the server for profiling, not as a required player mod. However, all of these have been used successfully in the modpack and can be manually added if desired.
 
 ## Maintenance convention
 
 Use a **GitHub Issue** for every planned change, compatibility concern, or test requiring follow-up. When a change is implemented, update the issue and corresponding design note/changelog. **Implemented** is not the same as **tested**, and **exported** is not the same as **published**.
 
-The official pack title has appeared as both “Strange Aeons Reborn” and “Stranger Aeons Reborn” in prior archives/discussions. Confirm the public-facing name before polishing release metadata.
+The original pack was first developed for Minecraft v 1.12, and has gone through several revisions and name changes. For the 1.18 update, it was called “Stranger Aeons” and for 1.20.1 it is now “Stranger Aeons Reborn”. It has been mostly done for the Forge launcher, but there was one Fabric version for 1.18.
