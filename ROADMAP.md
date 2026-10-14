@@ -17,9 +17,8 @@ These entries are **not** a completed-work checklist; they link to open issues w
 ## Next maintenance release
 
 - **Update Polymorph** from 0.49.8 to a corrected 1.20.1 Forge build (target 0.49.11) on clients **and** servers. A confirmed upstream startup NPE in 0.49.8 has a fix in 0.49.9; subsequent concurrency fixes in 0.49.10. Back up worlds before updates.
-- Remove outdated duplicate JARs from old server instances (Astral Dimension 1.8.1; Macaw's Windows 2.3.0; Xaero's Minimap 25.1.0). Preserve newer versions. Clean up optional ProbeJS, WorldEdit, and personal graphics files from **public exports**, keeping Spark available server-side if desired.
-- Produce a verified v2.5 fresh-profile and dedicated-server smoke test; confirm public-facing pack name, dependency versions, and CurseForge publication status.
-- Confirm the Void Worm finale and Dragon Escape Spin work on a real dedicated server, including server permission/configuration and performance.
+- Remove outdated duplicate JARs from old instances (Astral Dimension 1.8.1; Macaw's Windows 2.3.0; Xaero's Minimap 25.1.0). Preserve newer versions. Clean up optional ProbeJS, WorldEdit, and personal graphics files from **public exports**, keeping Spark available server-side if desired.
+- Confirm the Void Worm finale and Dragon Escape Spin work on a real dedicated server for the latest version, including server permission/configuration and performance.
 
 ## Gameplay/integration exploration
 
@@ -27,7 +26,7 @@ These entries are **not** a completed-work checklist; they link to open issues w
 - Evaluate Occultism's dimensional storage as a thematic alternative to **Tom's Simple Storage**. Don't remove Tom's until reliability, chest/drawer interoperability, recovery, and server performance are demonstrated.
 - Investigate if **Forgified Fabric API**, **Sinytra Connector**, and **Connector Extras** remain necessary. Do not remove without identifying affected Fabric-side mods, especially BetterEnd and its dependencies, and testing server/client startup.
 - Review botania/faction/dragonsteel progression and cross-mod gates only where gameplay testing identifies regressions. Mining shortcuts are not themselves a concern; progression rewards need not be mineable.
-- Investigate how to integrate the standalone [Mana & Artifice Ritual Pouch Labels](https://github.com/PhaedrusXY/Mana-and-Artifice-Ritual-Pouch-Labels) without duplicated patches when Eldritch Artifice already bundles the same feature.
+- The functionality of the standalone [Mana & Artifice Ritual Pouch Labels](https://github.com/PhaedrusXY/Mana-and-Artifice-Ritual-Pouch-Labels) is currently bundled into the Eldritch Artifice mod. Consider splitting these (mod development, but pack related).
 
 ## Further development (not scheduled)
 
