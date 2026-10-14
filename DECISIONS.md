@@ -50,9 +50,9 @@ Aurelis resource pack, shaders, Oculus and Embeddium are part of a personal clie
 Forgified Fabric API + Sinytra Connector + Connector Extras are currently retained because some content may rely on them. Remove only after identifying Fabric consumers and running clean client and dedicated-server startup tests.
 
 ## D-010 — Occultism without deleting its distinct mechanics
-**Status:** New integration / open decisions.
+**Status:** Existing reciprocal silver conversion recipes confirmed by player (October 14, 2026); issue #6 closed without adding KubeJS recipes.
 
-Occultism fits the ritual/mysticism theme. Favor one coherent **silver** economy across mods, but do **not** flatten functionally distinct Occultism ritual chalk into M&A chalk. Preserve unique Iesnium and rituals. Mining automation isn't a disqualifier.
+Occultism fits the ritual/mysticism theme. The pack already supports converting **Occultism silver to other silver forms and back**, making new cross-mod silver unification unnecessary for now. Preserve functionally distinct Occultism ritual chalk, unique Iesnium, and Occultism rituals. Mining automation isn't a disqualifier. Revisit only when an actual conversion gap is identified; no exhaustive tag/ore audit has been completed.
 
 ## D-011 — Storage: reliability and aesthetic fit first
 **Status:** Tom's Simple Storage retained; alternatives under evaluation.
