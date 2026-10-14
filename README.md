@@ -1,0 +1,62 @@
+# Strange Aeons — Reborn
+
+A magic- and exploration-focused Minecraft modpack for **Minecraft 1.20.1 / Forge 47.4.5**, managed and distributed through CurseForge.
+
+This repository is the **development record** for the modpack: implementation notes, tracked issues, balance/design decisions, changelog, and eventually the curated configuration, KubeJS, and datapack files. It is **not** a complete standalone modpack download.
+
+> **Repository initialized 2026-10-13.** The notes below reconstruct earlier work and may contain items requiring verification against the installed pack. The **2.4** CurseForge upload is confirmed; **2.5** was inspected as an export but its publication has not been confirmed here.
+
+## Design priorities
+
+- Magic should be powerful and entertaining, with faction choices and a reason to experiment.
+- Advancement depends on **exploration, bosses, ritual systems, and cross-mod materials**, not just digging for increasingly valuable ores.
+- Connect large mods into a coherent world without trivializing their unique mechanics.
+- Keep dedicated-server performance and reliability high; prioritize reversible, testable changes.
+- Preserve a mystical/sword-and-sorcery aesthetic rather than industrializing every system.
+
+## Key systems (see [decision log](DECISIONS.md))
+
+- **Mana & Artifice 3.1.11**, with faction armor balancing primarily in KubeJS.
+- **Eldritch Artifice**, a separately developed custom M&A / Dimensional Doors addon. See [its repository](https://github.com/PhaedrusXY/Eldritch_Artifice).
+- **Twilight Forest** progression and a staged, native **Alex's Mobs Void Worm** finale built with functions and Twilight Tweaks; test and balance work remains.
+- **Ice and Fire** dragons and Dragonsteel rebalanced around **Botania Manasteel** and **Cataclysm Witherite**.
+- **Botania** Mystical Flowers constrained to the Twilight Forest; compatible armor and recipe rebalance.
+- **Vampirism / Werewolves**, **Cataclysm**, **Occultism**, and other fantasy content linked by curated progression and recipes.
+- **FancyMenu** custom UI; disable Ice and Fire's competing custom main menu on clients.
+- **KubeJS** for pack-specific recipes, behavior, balance, and dimension/boss orchestration.
+
+## Navigation
+
+| Document | Purpose |
+| --- | --- |
+| [Roadmap](ROADMAP.md) | What is next, under evaluation, or awaiting verification |
+| [Changelog](CHANGELOG.md) | Changes by release/staging milestone, without inventing release dates |
+| [Decisions](DECISIONS.md) | Why design and technical choices were made |
+| [Compatibility](docs/compatibility.md) | Known issues, workarounds, and version-sensitive mod interactions |
+| [Balance](docs/balance.md) | Gameplay/progression rules and known balance adjustments |
+| [Twilight finale](docs/twilight-finale.md) | Void Worm encounter design and staging |
+| [Server setup](docs/server-setup.md) | Dedicated server requirements and troubleshooting |
+| [Release checklist](docs/release-checklist.md) | Repeatable CurseForge export and release checks |
+| [Mod inventory](docs/mod-inventory.md) | Selected mod list and verification notes |
+| [Testing](docs/testing.md) | High-risk functionality to verify in-game |
+| [GitHub Issues](https://github.com/PhaedrusXY/Strange_Aeons/issues) | Concrete bugs, plans, experiments and follow-ups |
+
+## Source files and boundaries
+
+Initially this repository contains **documentation and issues only**. The following directories will be imported from a verified pack snapshot when provided:
+
+```text
+kubejs/
+config/                 # curated changes only
+defaultconfigs/
+```
+
+Pack source must not include third-party `mods/*.jar`, world saves, player data, backup archives, logs/crash reports, private server settings, personal Xaero waypoints, large generated `kubejs/probe/` output, or locally installed shader/resource packs. CurseForge's manifest is the authority for distributed mod JARs.
+
+Personal client enhancements such as **Aurelis**, **Oculus**, **Embeddium** and shaders are not part of the public pack export. Development-only **ProbeJS** and **WorldEdit** are also excluded; **Spark** may remain installed on the server for profiling, not as a required player mod.
+
+## Maintenance convention
+
+Use a **GitHub Issue** for every planned change, compatibility concern, or test requiring follow-up. When a change is implemented, update the issue and corresponding design note/changelog. **Implemented** is not the same as **tested**, and **exported** is not the same as **published**.
+
+The official pack title has appeared as both “Strange Aeons Reborn” and “Stranger Aeons Reborn” in prior archives/discussions. Confirm the public-facing name before polishing release metadata.
