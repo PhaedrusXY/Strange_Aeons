@@ -2,6 +2,15 @@
 
 _This chronology is reconstructed from modpack development conversations and a verified v2.5 ZIP inspection. It is deliberately not a complete CurseForge release changelog. Dates below refer to development discussion/inspection, not necessarily publication dates._
 
+## Working-instance changes — October 16, 2026 (unreleased version not specified)
+
+**Reported installed/updated, not yet a verified public release:**
+- **Added:** Champions (rare elite monsters) and Apotheosis. The proposed elite rewards and Apotheosis module choices are **not yet confirmed as configured**.
+- **Updated:** MNA More Structures, MNA Integrated Adventures, and One Mana Bar to Rule Them All. Exact before/after mod versions not yet supplied.
+- **Tested:** Combined changes **booted successfully in single-player** (user report).
+- **Pending:** Dedicated-server startup and client join, gameplay/loot/structures/mana-HUD validation, world backup and data integrity, and confirming release version.
+- Tracking: [Champions + Apotheosis #17](https://github.com/PhaedrusXY/Strange_Aeons/issues/17), [M&A updates #18](https://github.com/PhaedrusXY/Strange_Aeons/issues/18).
+
 ## 2.5 — CurseForge upload confirmed (October 2026)
 
 **Observed in the v2.5 export:**
