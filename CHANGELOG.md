@@ -2,7 +2,17 @@
 
 _This chronology is reconstructed from modpack development conversations and a verified v2.5 ZIP inspection. It is deliberately not a complete CurseForge release changelog. Dates below refer to development discussion/inspection, not necessarily publication dates._
 
-## Working-instance changes — October 16, 2026 (unreleased version not specified)
+## 2.6 — public-client ZIP inspected, upload/publication not confirmed (October 16, 2026)
+
+- Reviewed user-supplied `PUBLIC Stranger Aeons Reborn v2.6.zip`: CurseForge 1.20.1/Forge 47.4.5, **148 managed mods**, 558 ZIP entries, archive CRC valid.
+- Champions Unofficial and Apotheosis present. **Apotheosis Adventure=false** confirmed in `config/apotheosis/apotheosis.cfg`; other five module toggles true.
+- M&A More Structures, M&A Integrated Adventures and One Mana Bar to Rule Them All in the manifest. Prior single-player boot success was reported; dedicated-server testing not confirmed.
+- Polymorph now **0.49.10** in this ZIP (known 0.49.8 fixes included); 0.49.11 remains a possible JEI-compatibility update.
+- **Prepublication fixes identified:** our tuned `defaultconfigs/champions-server.toml` is missing; instance-root Vampirism/Blood Moon datapack may not be loaded without an explicit loader; FancyMenu `modpack_mode=false` leaves editing overlays/hotkeys enabled.
+- Optional cleanup: Spark remains in the player manifest; stale shader/Distant Horizons/Embeddium and removed-mod configs, testing scripts, and backup files included.
+- See [v2.6 export audit #19](https://github.com/PhaedrusXY/Strange_Aeons/issues/19) for tested facts, file paths and outstanding checks.
+
+## Working-instance changes — October 16, 2026 (earlier stage before v2.6 inspection)
 
 **Reported installed/updated, not yet a verified public release:**
 - **Added:** Champions (rare elite monsters) and Apotheosis. The proposed elite rewards and Apotheosis module choices are **not yet confirmed as configured**.
