@@ -42,6 +42,10 @@ This repository is the **development record** for the modpack: implementation no
 | [Testing](docs/testing.md) | High-risk functionality to verify in-game |
 | [GitHub Issues](https://github.com/PhaedrusXY/Strange_Aeons/issues) | Concrete bugs, plans, experiments and follow-ups |
 
+## Current development status
+
+On **October 16, 2026**, the working instance was updated with **Champions and Apotheosis** and newer **MNA More Structures**, **MNA Integrated Adventures**, and **One Mana Bar to Rule Them All**. **Single-player boot succeeded**; dedicated-server testing was still underway. Configuration choices, exact versions, and release publication are not verified yet. See [#17](https://github.com/PhaedrusXY/Strange_Aeons/issues/17) and [#18](https://github.com/PhaedrusXY/Strange_Aeons/issues/18).
+
 ## Source files and boundaries
 
 Initially this repository contains **documentation and issues only**. The following directories will be imported from a verified pack snapshot when provided:
