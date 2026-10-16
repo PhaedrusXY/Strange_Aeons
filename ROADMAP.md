@@ -7,12 +7,20 @@ _Initialized 2026-10-13. Priority/target versions are tentative; no unscheduled 
 | Track | Active issues |
 | --- | --- |
 | Next release and maintenance | [Polymorph update #1](https://github.com/PhaedrusXY/Strange_Aeons/issues/1), [duplicate JAR cleanup #2](https://github.com/PhaedrusXY/Strange_Aeons/issues/2), [v2.5 export verification #3](https://github.com/PhaedrusXY/Strange_Aeons/issues/3), [ProbeJS/export cleanup #9](https://github.com/PhaedrusXY/Strange_Aeons/issues/9), [public pack name/changelog #15](https://github.com/PhaedrusXY/Strange_Aeons/issues/15) |
-| Tests | [Void Worm #4](https://github.com/PhaedrusXY/Strange_Aeons/issues/4), [Dragon Escape Spin #5](https://github.com/PhaedrusXY/Strange_Aeons/issues/5), [M&A armor #11](https://github.com/PhaedrusXY/Strange_Aeons/issues/11), [Occultism gameplay #12](https://github.com/PhaedrusXY/Strange_Aeons/issues/12), [pouch-label compatibility #16](https://github.com/PhaedrusXY/Strange_Aeons/issues/16) |
+| Tests | [Champions + Apotheosis #17](https://github.com/PhaedrusXY/Strange_Aeons/issues/17), [M&A addon updates #18](https://github.com/PhaedrusXY/Strange_Aeons/issues/18), [Void Worm #4](https://github.com/PhaedrusXY/Strange_Aeons/issues/4), [Dragon Escape Spin #5](https://github.com/PhaedrusXY/Strange_Aeons/issues/5), [M&A armor #11](https://github.com/PhaedrusXY/Strange_Aeons/issues/11), [Occultism gameplay #12](https://github.com/PhaedrusXY/Strange_Aeons/issues/12), [pouch-label compatibility #16](https://github.com/PhaedrusXY/Strange_Aeons/issues/16) |
 | Integration and research | [Occultism storage #7](https://github.com/PhaedrusXY/Strange_Aeons/issues/7), [Fabric/Connector dependency audit #8](https://github.com/PhaedrusXY/Strange_Aeons/issues/8) |
 | Source and technical debt | [Import actual source #10](https://github.com/PhaedrusXY/Strange_Aeons/issues/10), [obsolete scripts/config #13](https://github.com/PhaedrusXY/Strange_Aeons/issues/13) |
 | Future ideas | [Azathoth/Limbo triggered soundscape #14](https://github.com/PhaedrusXY/Strange_Aeons/issues/14) |
 
 These entries are **not** a completed-work checklist; they link to open issues with the test criteria and decision background. Close issues only on verified completion.
+
+## Current working-instance test batch — October 16, 2026
+
+**Single-player boot succeeded; dedicated-server deployment/testing in progress, not yet confirmed.** No new CurseForge release number or verified exact mod versions have been supplied.
+
+- **Added:** Champions and Apotheosis to the working instance. Actual Champions elite spawns, enchanted rewards, empowered Wither/boss behavior, and **Apotheosis Adventure / affix / gem module configuration** still need verification. [#17](https://github.com/PhaedrusXY/Strange_Aeons/issues/17)
+- **Updated:** MNA More Structures, MNA Integrated Adventures, and One Mana Bar to Rule Them All. Need dedicated server join, new-chunk worldgen, M&A integration, mana HUD, and save-compatibility checks. [#18](https://github.com/PhaedrusXY/Strange_Aeons/issues/18)
+- **Next checkpoint:** server launch and client join, then targeted in-game tests. Do not mark any of this as published solely because SP loads.
 
 ## Next maintenance release
 
