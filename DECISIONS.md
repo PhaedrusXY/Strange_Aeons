@@ -73,3 +73,11 @@ In Limbo or discrete supernatural events, layer uncanny flute/piping sounds with
 **Status:** Accepted October 2026.
 
 GitHub issues carry active work; this repo records reasons, configurations and scripts when imported. CurseForge distributes dependencies as a manifest, not as checked-in third-party JARs. A successful local run is not proof of dedicated server compatibility; a ZIP inspection is not proof of public release.
+
+## D-015 — Rare raid-like threats, not mandatory solo balance
+**Status:** Accepted design philosophy, October 16, 2026. [Issue #17](https://github.com/PhaedrusXY/Strange_Aeons/issues/17) tracks the immediate implementation proposal.
+
+The player fondly recalls 30+-person MMO raid bosses, Valheim's punishing fights, and Minecraft boss-mod combinations such as unexpectedly empowered Withers. Some favorite experiences involved a group repeatedly dying, regrouping and strategizing. **Preserve very rare, exceptionally dangerous encounters that may require teamwork and multiple attempts**. Solo accessibility is not an absolute balance rule, and major bosses should not be categorically excluded from random elite modifiers. Keep regular exploration playable; exceptional challenges should stay exceptional.
+
+**Unfair is not necessarily broken:** repeated deaths and tactical withdrawal may be desirable. Bugs, effectively invulnerable combinations, unrecoverable/despawning targets, broken advancement/reward conditions, destructive server lag and crashes are not. Evaluate specific dangerous modifiers empirically before excluding them. The player's MMO raids are a reference for encounter feel, not a plan to require 30 Minecraft players in one fight.
+
