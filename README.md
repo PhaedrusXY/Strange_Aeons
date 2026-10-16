@@ -8,11 +8,11 @@ This repository is the **development record** for the modpack: implementation no
 > 
 ## Design priorities
 
-- The world should be harsh, but not overwhelmingly so.
+- Routine exploration should be harsh but playable; **rare extraordinary enemies may be punishing, raid-like group encounters** that need planning, teamwork, and repeated attempts.
 - Advancement options should be powerful and entertaining, with interesting factions to join and reasons to experiment.
 - Advancement depends on **exploration, bosses, ritual systems, and cross-mod materials**, not just digging for increasingly valuable ores.
 - Connect large mods into a coherent world without trivializing their unique mechanics.
-- Keep performance and reliability high, especially on dedicated-servers; prioritize reversible, testable changes.
+- Keep performance and reliability high, especially on dedicated servers; distinguish extremely dangerous fights from broken, unwinnable or lag-inducing encounters, and prioritize reversible, testable changes.
 - Preserve a mystical/sword-and-sorcery aesthetic rather than industrializing every system.
 
 ## Key systems (see [decision log](DECISIONS.md))
