@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+    id 'net.neoforged.gradle.userdev' version '7.1.21'
+}
+
+group = 'com.phaedrusxy'
+version = '0.1.2'
+
+base {
+    archivesName = 'thaumic-storage-scanning-26.1.2'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+
+repositories {
+    maven {
+        url = 'https://www.cursemaven.com'
+        content { includeGroup 'curse.maven' }
+    }
+}
+
+dependencies {
+    implementation 'net.neoforged:neoforge:26.1.2.122'
+    implementation 'curse.maven:thaumaturge-1628024:9095192'
+    implementation 'curse.maven:toms-storage-378609:9196252'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.named('jar').configure {
+    from('LICENSE')
+}
