@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.phaedrusxy'
-version = '0.1.2'
+version = '0.1.3'
 
 base {
     archivesName = 'thaumic-storage-scanning-26.1.2'
